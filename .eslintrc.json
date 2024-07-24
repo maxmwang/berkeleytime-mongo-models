@@ -17,6 +17,6 @@
     "consistent-return": "off"
   },
   "exclude": [
-    "build"
+    "lib"
   ]
 }
