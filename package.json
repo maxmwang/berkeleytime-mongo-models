@@ -4,8 +4,8 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "run_build": "rimraf ./build && tsc",
-    "postinstall": "tsc --outDir ./build"
+    "build": "rimraf ./lib && tsc",
+    "postinstall": "tsc"
   },
   "author": "",
   "license": "ISC",
