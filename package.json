@@ -2,6 +2,7 @@
   "name": "berkeleytime-mongo-models",
   "version": "1.0.0",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "postinstall": "tsc --outDir ./build"

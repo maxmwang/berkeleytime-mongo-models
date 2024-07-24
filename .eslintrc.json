@@ -15,5 +15,8 @@
     "no-console": "off",
     "no-param-reassign": "off",
     "consistent-return": "off"
-  }
+  },
+  "exclude": [
+    "build"
+  ]
 }
