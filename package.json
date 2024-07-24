@@ -1,8 +1,8 @@
 {
   "name": "berkeleytime-mongo-models",
   "version": "1.0.0",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf ./lib && tsc",
     "postinstall": "tsc"
